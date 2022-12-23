@@ -2,16 +2,21 @@
   "collectionName": "components_section_image_grids",
   "info": {
     "displayName": "image-grid",
-    "icon": "file-upload"
+    "icon": "file-upload",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "altText": {
+      "type": "string",
       "required": true
     }
   }

@@ -19,7 +19,7 @@
       "type": "component",
       "repeatable": true,
       "component": "section.tex-grid",
-      "required": true
+      "required": false
     },
     "image_grid": {
       "type": "component",
@@ -30,7 +30,8 @@
     "metadata": {
       "type": "component",
       "repeatable": false,
-      "component": "section.section-metadata"
+      "component": "section.section-metadata",
+      "required": true
     }
   }
 }
